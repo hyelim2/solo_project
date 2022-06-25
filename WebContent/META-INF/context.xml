@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+	name="jdbc/projectdb"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	username="root"
+	password="1234"
+	url="jdbc:mysql://localhost:3306/projectdb"
+	maxWait="5ooo"
+	/>
+</Context>
+
+<!--auth : 컨테이너를 자원 관리자로 기술
+	name : JDBC 이름 (변경 가능)
+	driverClassName : JDBC 드라이버
+	url : 접속할 서버의 URL 지정
+	username : 접속계정
+	password : 접속할 계정 비밀번호 
+	maxWait : 사용 가능한 커넥션이 없을 때 커넥션 회수를 기다리는 시간 (1000 = 1초)-->
+
+
+
+
+<!--auth : 컨테이너를 자원 관리자로 기술
+	name : JDBC 이름 (변경 가능)
+	driverClassName : JDBC 드라이버
+	url : 접속할 서버의 URL 지정
+	username : 접속계정
+	password : 접속할 계정 비밀번호 
+	maxWait : 사용 가능한 커넥션이 없을 때 커넥션 회수를 기다리는 시간 (1000 = 1초)-->
