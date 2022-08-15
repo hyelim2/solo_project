@@ -8,5 +8,5 @@
 
 
 ### 2. ER 다이어그램
-
+![er다이어그램](https://user-images.githubusercontent.com/99606477/184591770-5bc47395-02a5-41d7-a376-bd040ace9d91.png)
 ### 3. 기능 구현
